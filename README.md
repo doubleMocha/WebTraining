@@ -6,6 +6,7 @@
 #### 前端基础系列
 
 1. [第一讲 HTML和HTTP基础](https://github.com/ylxdzsw/WebTraining/blob/master/lesson1.md)
+1. [第二讲 CSS基础和网页基本布局](https://github.com/ylxdzsw/WebTraining/blob/master/lesson2.md)
 
 ### 新手指南
 
@@ -34,6 +35,8 @@
 
 遇到问题的话，可以先尝试这几个网站，解决不了再去群里问(如果这几个网站都解决不了的话，群里通常也没人能搞得定。。)
 
-- [stackoverflow](http://stackoverflow.com/) 最能实际解决问题的程序员问答网。有墙，英文
-- [google](https://www.google.com/) 有问题为什么不问问谷歌呢？有墙，部分英文
-- [MDN](https://developer.mozilla.org/zh-CN/) 简洁美观的文档，非常棒的学习资料。暂未被墙，大部分有中文
+- [stackoverflow](http://stackoverflow.com/) 最能实际解决问题的程序员问答网
+- [google](https://www.google.com/) 有问题为什么不问问谷歌呢？
+- [MDN](https://developer.mozilla.org/zh-CN/) 简洁美观的文档，非常棒的学习资料
+- [caniuse](http://caniuse.com) 查询前端特性和功能的各浏览器支持度
+
