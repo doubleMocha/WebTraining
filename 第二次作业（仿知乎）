@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>知乎 - 与世界分享你的知识、经验和见解</title>
+
+<style>
+body{
+  text-align:center;
+  color: #555;
+font-size: 15px;
+}
+
+.mainlogo{
+  padding: 40px 0;
+}
+
+.subtitle{
+  font-size: 18px;
+  border: 1px solid white;
+  margin: 1em auto;
+}
+
+.signup-button{
+  float: left;
+}
+.signin-button{
+  float:right;
+}
+
+.zz{
+  border : 1px solid #d5d5d5;
+  font-size: 14px;
+  height: 3em;
+  width: 280px;
+  text-indent: 1em;
+  margin: 1em auto;
+}
+.navs-slider{
+  border: 1 px solid white;
+  width: 140px;
+}
+
+.sign-flow .sign-button {
+
+        width: 290px;
+        height: 40px;
+        color: white;
+        background: #5bb8ff;
+        margin-bottom: 15px;
+        border: 0;
+        border-radius: 3px;
+}
+
+.index-tab-navs {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.index-tab-navs .navs-slider {
+    position: relative;
+    display: inline-block;
+}
+
+
+.qrcode-app-download{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+    width: 160px;
+    height: 42px;
+    line-height: 40px;
+    color: #6b9cbd;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+
+}
+
+.hovercard{
+  display: none;
+}
+
+.qrcode-app-download:hover>.text{
+    display:none;
+}
+.qrcode-app-download:hover>.hovercard{
+    display:block;
+}
+.wrapperclearfix{
+  border: 1px solid white;
+  width: 300px;
+  margin: 1em auto;
+}
+.remember-me{
+  float: left;
+}
+.unable-login{
+  float: right;
+}
+
+
+.footer{
+  font-size: 12px;
+  line-height: 42px;
+
+  text-align: center;
+  margin-top:180px;
+}
+.signin-button2,.signup-button1{
+
+  color: #6b9cbd;
+  border-bottom: 2px solid #6b9cbd;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="mainlogo">
+  <img src="http://static.zhihu.com/static/revved/img/index/logo.fbb2c4e6.png"  />
+  <h2 class="subtitle">与世界分享你的知识、经验和见解</h2>
+</div>
+
+
+  <div class="desk-front sign-flow clearfix sign-flow-simple">
+
+  <div class="index-tab-navs">
+  <div  class="navs-slider">
+  <a href="#signup" class="signup-button1" style='text-decoration:none'>注册</a>
+  <a href="#signin" class="signin-button2" style='text-decoration:none'>登录</a>
+
+  </div>
+  </div>
+
+
+  <div style="display: block;" class="view view-signin">
+  <form novalidate="novalidate">
+
+  <div class="group-inputs">
+
+  <div class="input-wrapper">
+  <input  placeholder="手机号或邮箱"  type="text" class="zz">
+  </div>
+  <div class="input-wrapper">
+  <input  placeholder="密码" type="password" class="zz">
+  </div>
+  </div>
+
+  <div class="button-wrapper command">
+  <button class="sign-button submit" type="submit">登录</button>
+  </div>
+  <div class="wrapperclearfix">
+  <div class="remember-me">
+  <input class="remember-me" name="remember_me" checked="" value="true" type="checkbox">记住我</div>
+  <a class="unable-login" href="#" style='text-decoration:none'>无法登录?</a>
+  </div>
+  <div class="weibo-signup-wrapper">
+  <span class="name js-toggle-sns-buttons">社交帐号登录</span>
+  </div>
+  </form>
+  </div>
+
+
+
+<div class="qrcode-app-download">
+   <span class="text">下载知乎 App</span>
+  <span class="hovercard">
+    <span class="intro">扫一扫二维码下载</span>
+    <img src="http://www.weixindhw.com/file/upload/201512/20/171311603.png" width="160" height="160"/>
+</span>
+
+
+</div>
+
+<div class="footer">
+  &copy; 2016 知乎·知乎圆桌·发现移动应用·来知乎工作 京 ICP 备 13052560 号·京公网安备 11010802010035 号
+</div>
+
+</body>
+
+
+</html>
